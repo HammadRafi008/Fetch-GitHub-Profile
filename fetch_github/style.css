@@ -1,0 +1,143 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+#log{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 5%;
+    margin-bottom: 0;
+
+}
+
+
+.main h1 {
+    color: #1b1b1d;
+    letter-spacing: 0em;
+    margin-top: 50px;
+}
+
+.main {
+    width: 30%;
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(151, 211, 224);
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px black;
+    padding-bottom: 25px;
+}
+
+.input1 {
+    width: 80%;
+    height: 40px;
+    margin: 20px;
+    border-radius: 7px;
+    border: 1px solid #111213;
+    padding: 5px 10px;
+    font-size: 1.2em;
+}
+
+.btn {
+    width: 80%;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: #20b434;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    border: 2px solid #1A237E; 
+    margin: 40px auto;
+    border-radius: 50%;
+}
+
+.profile {
+    text-align: center;
+}
+
+.username {
+    color: #e5e6ee;
+    font-weight: bold;
+    font-size: 2.0em;
+}
+
+.follow {
+    padding: 15px;
+    background-color: #1A237E;
+    color: rgb(235, 196, 196);
+    width: 40%;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+.avatar img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: solid white;
+
+}
+
+.fa-users,
+.fa-user-plus,
+.fa-file {
+    font-size: 1.8em;
+    color: #fdfdfd;
+}
+
+.main1 {
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    margin: 100px auto;
+    border-radius: 30px;
+    background-color: rgb(106, 126, 124);
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px black;
+    padding-bottom: 20px;
+    padding: 20px;
+}
+
+.follow_Info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    text-align: center;
+    background-color: #0a0a0a;
+    border-radius: 10px;
+    color: rgb(118, 223, 124);
+}
+
+.location {
+    color: #1714aa;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.para {
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .main,
+    .main1 {
+        width: 90%;
+    }
+}
